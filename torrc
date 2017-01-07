@@ -1,0 +1,9 @@
+Log notice file /var/log/tor/notices.log
+SocksPort 0
+RunAsDaemon 1
+ORPort 9001
+DirPort 9030
+ExitPolicy reject *:*
+Nickname thardes2
+RelayBandwidthRate 300 KB
+RelayBandwidthBurst 300 KB
