@@ -12,7 +12,8 @@ add torrc /torrc
 add startService.sh /startService.sh
 COPY /torrc /etc/tor/torrc
 
-
+EXPOSE 9030
+EXPOSE 9001
 EXPOSE 9050
 
 RUN chmod +x /startService.sh
